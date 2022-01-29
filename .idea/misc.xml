@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/bg_gradient.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/btn_background.xml" value="1.675" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/btn_delete.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/btn_login.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/edit_text_syle.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/ic_baseline_arrow_drop_up_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/ic_baseline_picture_as_pdf_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/splash_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/drawable/splash_brand_logo.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1606425702811245" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout-w936dp/activity_login.xml" value="0.18510928961748635" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/activity_chose_login.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/activity_hitung_luas_tabung.xml" value="0.24094202898550723" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/activity_login.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/activity_login_admin.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/activity_tambah.xml" value="0.24818840579710144" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/activity_user_main.xml" value="0.22760416666666666" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/cardview_layout.xml" value="0.2" />
+        <entry key="..\:/Android studio project/Responsi/app/src/main/res/layout/cardview_layout_user.xml" value="0.22760416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81650600466",
+    "project_id": "responsi-756dc",
+    "storage_bucket": "responsi-756dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81650600466:android:2bf1246fe22372ec4fe6cb",
+        "android_client_info": {
+          "package_name": "com.example.responsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81650600466-p9q99offoeok4c5nhpm56jo7imtup5tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHAr3llyfqxbAL3DW1Wieecl2rhsEiP0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81650600466-p9q99offoeok4c5nhpm56jo7imtup5tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

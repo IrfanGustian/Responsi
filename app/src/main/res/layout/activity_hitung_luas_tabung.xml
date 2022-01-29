@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HitungLuasTabung"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="15dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textviewjudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hitung Luas Permukaan Tabung"
+                android:layout_marginTop="@dimen/standard_20"
+                android:textSize="28sp"
+                android:layout_alignParentTop="true"/>
+
+            <EditText
+                android:id="@+id/Jari_jari"
+                android:background="@drawable/edit_text_syle"
+                android:hint="Jari-jari"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C"
+                android:paddingLeft="15sp"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/textviewjudul"
+                />
+
+            <EditText
+                android:id="@+id/tinggi"
+                android:background="@drawable/edit_text_syle"
+                android:hint="Tinggi"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C"
+                android:paddingLeft="15sp"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/Jari_jari"/>
+
+            <TextView
+                android:id="@+id/has"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Luas Permukaan"
+                android:layout_marginTop="@dimen/standard_20"
+                android:textSize="20sp"
+                android:layout_below="@+id/tinggi"/>
+
+            <TextView
+                android:id="@+id/textviewhasil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/standard_20"
+                android:textSize="28sp"
+                android:layout_below="@+id/has"/>
+
+            <TextView
+                android:id="@+id/hasvol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Luas Permukaan"
+                android:layout_marginTop="@dimen/standard_20"
+                android:textSize="20sp"
+                android:layout_below="@+id/textviewhasil"/>
+
+            <TextView
+                android:id="@+id/textviewhasilvol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/standard_20"
+                android:textSize="28sp"
+                android:layout_below="@+id/hasvol"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/textviewhasilvol"
+                >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnBatalHitungtabung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_delete"
+                    android:text="Batal"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_toLeftOf="@+id/btnDownload"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnHitungTabung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white"
+                    android:text="Hitung"
+                    android:textSize="15sp"
+                    android:background="@drawable/btn_background"
+                    android:layout_alignParentEnd="true"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
