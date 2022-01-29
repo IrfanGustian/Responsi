@@ -19,7 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-
+//Main Activity
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private AdapterCardview adapter;
